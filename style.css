@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 24px;
+    margin: 10px 5px;
+}
+.box-div input {
+    margin: 10px 5px;
+   
+}
+.box-div label {
+    margin: 10px 5px;
+    font-size: 18px;
+}
+select {
+    margin-left: 5px;
+}
+input[value=Submit] {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(141, 134, 134);
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+input[value=Submit]:hover {
+    cursor: pointer;
+    background-color: rgba(148, 144, 144, 0.8);
+    
+}
+textarea {
+    resize: none;
+    margin-left: 5px;
+}
+.box-div:nth-child(-n+3) input {
+    height:30px;
+}
+Select {
+   height:25px ;
+}
